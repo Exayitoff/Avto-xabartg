@@ -31,7 +31,7 @@ async def send_welcome(message: types.Message):
 async def cb_handler(call: types.CallbackQuery):
     if call.data == "boshlash":
         if call.from_user.id == 693313498:
-            num = 810
+            num = 825
             while True:
                 await bot.send_message(chat_id=call.from_user.id, text="Post joylash muvaffaqiyatli yoqildi ✅")
                 num+=1
